@@ -1,0 +1,16 @@
+.post-form {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 10px 10px;
+}
+
+.post-form__image-src {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.post-form__save-button {
+  grid-column: span 2;
+  justify-self: end;
+}

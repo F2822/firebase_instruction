@@ -1,0 +1,18 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.post__content {
+  display: flex;
+  column-gap: 20px;
+}
+
+.post__image {
+  max-width: 25vw;
+}
+
+.post__edit-button {
+  align-self: end;
+}

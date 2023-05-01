@@ -1,0 +1,24 @@
+.blog-post {
+  position: relative;
+  display: flex;
+  column-gap: 20px;
+  padding: 20px;
+  box-shadow: 0 0 4px 2px #CCCCCC;
+  cursor: pointer;
+}
+
+.blog-post__image {
+  max-width: 50%;
+  max-height: 100px;
+}
+
+.blog-post__delete-button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 14px;
+  width: 16px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
